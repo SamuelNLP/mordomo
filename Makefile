@@ -4,7 +4,7 @@ clean_dist:
 	rm -rf dist *.egg-info
 
 clean_tests:
-	rm -rf .pytest_cache .tox .coverage htmlcov test_report_36.xml
+	rm -rf .pytest_cache .tox .coverage htmlcov test_report.xml
 	py3clean .
 
 clean_mypy:

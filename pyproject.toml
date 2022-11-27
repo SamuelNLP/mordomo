@@ -5,7 +5,6 @@ exclude = '''
 /(
     \.git
   | \.mypy_cache
-  | \.tox
   | _build
   | build
   | dist
@@ -13,9 +12,9 @@ exclude = '''
 '''
 
 [tool.poetry]
-name = "module"
+name = "mordomo"
 version = "0.0.1"
-description = "Example description"
+description = "A mordomo to automate stuff at home"
 authors = ["Samuel Pedro"]
 license = "LICENSE"
 readme = "README.md"
